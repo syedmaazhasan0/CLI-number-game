@@ -8,6 +8,8 @@ import chalk from "chalk";
 // comparing user no with origional no and shoe result - done
 
 const randomNumber = Math.floor(Math.random() * 10 + 1);
+console.log(chalk.bgCyan("Welcome to Number Guessing Game"));
+
 
 const answer = await inquirer.prompt([
     {
